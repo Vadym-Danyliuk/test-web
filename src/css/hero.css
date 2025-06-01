@@ -1,4 +1,29 @@
 /* Hero */
+.sections-intro {
+  background: var(--footer-bg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('/img/background/hero-background-mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 72px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (min-resolution: 192dpi) {
+  .sections-intro {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('/img/background/hero-background-mobile@2x.jpg');
+  }
+}
 .intro-text {
   font-size: 36px;
   font-weight: 700;
